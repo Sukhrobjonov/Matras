@@ -1,0 +1,351 @@
+
+
+.adds-buttons{
+    background: #01384D;
+    border-radius: 8px;
+    font-style: normal; 
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 25px;
+    
+    transition: 0.3s;
+    border: 2px solid white;
+    
+    position: absolute;
+    top: 130%;
+    left:85%;
+}
+.tables{
+    position: relative;
+}
+
+.adds-buttons:hover{
+    background-color: white;
+    color: #01384D;
+    border: 2px solid #01384D;
+}
+.toifalar-table{
+    position: relative;
+}
+
+.modal{
+    position: relative;
+}
+.mahsulot-box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.modal-title{
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+margin-bottom: 30px;
+color: #000000;
+}
+
+.modal-text{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+margin-bottom: 10px;
+
+color: #000000;
+
+}
+.modal-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.modal-input{
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.2);
+box-sizing: border-box;
+border-radius: 5px;
+margin-bottom: 27px;
+width: 220px;
+padding: 8px 10px;
+}
+
+.modal-subtext{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+
+color: #000000;
+
+}
+
+
+.modal-btn{
+    background: #01384D;
+border-radius: 7px;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+text-align: center;
+width: 220px;
+padding: 5px;
+border: 2px solid #01384D;
+color: #FFFFFF;
+transition: 0.3s;
+}
+.modal-btn:hover{
+color: #01384D;
+background-color: white;
+border: 2px solid #01384D;
+}
+.modal-blok{
+    position: relative;
+}
+.modal-close{
+    position: absolute;
+    top: 0%;
+    left: 101%;
+    transform: translateY(-90%);
+}
+
+.modal-close button{
+    
+    border: 1px solid #01384D;
+
+    padding: 5px;
+    background: #01384D;
+}
+
+
+
+
+
+
+
+.delete-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height: 130px;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    border: 1px solid #01384D;
+
+    display: flex;
+    justify-content: center;align-items: center;
+    
+}
+
+.delete-title{
+    font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+
+color: #000000;
+margin-bottom: 23px;
+}
+
+.delete-no{
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+border: none;
+padding: 4px;
+color: #000000;
+}
+
+.delete-yes{
+    background: #f7e0e0;
+border-radius: 5px;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+border: none;
+padding: 4px 6px;
+margin-left: 58px;
+
+color: #D61F1F;
+
+}
+
+.delete-footer{
+    margin-left: 100px;
+}
+
+
+
+
+.mahsulot-box{
+    width: 1090px;
+padding: 25px;
+    height: 430px;
+    background-color: white;
+    position: relative;
+}
+
+.mahsulot-close{
+    position: absolute;
+    top: 0%;
+    left: 97.9%;
+}
+.mahsulot-close-btn{
+    border: none;
+    background-color: #01384D;
+    padding: 4px 6px;
+}
+
+.mahsulot-modal{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.modal-select{
+    width: 220px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+box-sizing: border-box;
+border-radius: 5px;
+padding:  8px;
+}
+
+
+
+
+.modal-img{
+    background: #E6EBED;
+width: 230px;
+height: 230px;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.modal-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+textarea{
+    width: 220px;
+    height: 117px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+.add-button{
+    background: #01384D;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    width: 220px;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 25px;
+    margin-top: 12px;
+    transition: 0.3s;
+    border: 2px solid white;
+}
+
+
+.add-button:hover{
+    background-color: white;
+    color: #01384D;
+    border: 2px solid #01384D;
+}
+
+
+
+.mahsulot-title{
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+
+color: #000000;
+}
+
+.modal-item p{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+
+color: #000000;
+margin:15px 0px
+}
+
+.modal-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.multiple-input{
+    width: 230px;
+    color: #E6EBED;
+    height: 230px;
+
+
+}
+
+.modal-items{
+    margin-top: 0px;
+}
+
+.modal-subtext{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+
+.modal-footers{
+    margin-top: 0px;
+}
